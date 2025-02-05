@@ -67,6 +67,6 @@ const TodoListItems = ({value, indexNumber, todoList, setTodoList}) => {
     
 
     return (
-        <li>{indexNumber + 1} . {value}<span onClick={deleteRow}><Button variant="danger">Danger</Button></span></li>
+        <li>{indexNumber + 1} . {value}<span onClick={deleteRow}><Button variant="danger">Delete</Button></span></li>
     )
 }
