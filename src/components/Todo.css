@@ -1,0 +1,60 @@
+.main-form {
+    padding: 40px 30px;
+}
+
+.todo-input {
+    color: black;
+    width: 500px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1.5px solid #242424;
+    border-radius: 5px 0 0 5px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.todo-btn {
+    color: white;
+    padding: 10.5px 25px;
+    background-color: #242424;
+    border: 1px solid #242424;
+    border-radius: 0 8px 8px 0;
+}
+
+.todo-input:focus {
+    outline: none;
+}
+
+.outerDiv {
+    margin: 10px 0 0 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+.outerDiv ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.outerDiv ul li {
+    padding: 15px;
+    color: white;
+    background-color: #242424;
+    position: relative;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.outerDiv ul li span {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    color: red;
+}
+
+.completeTodo {
+    text-decoration: line-through;
+}
